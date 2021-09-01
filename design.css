@@ -44,7 +44,8 @@ section.infoBox {
     
 
     
-    padding:6px;
+    padding:20px;
+   
     
     
     border-radius: 6px;
@@ -52,6 +53,8 @@ section.infoBox {
     font-family: 'Montserrat', sans-serif;
     text-align: justify;
     font-size: 24px;
+    margin: 10px;
+    min-height: 400px;
 }
 .infoBox img{
     width: 200px;
@@ -72,7 +75,7 @@ section.infoBox {
     font-size: 30px;
 }
 #kontaktFormular{
-    /*background-color: lightblue;*/
+    
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
@@ -100,4 +103,5 @@ section.infoBox {
 #kontaktFormular button {
     border: 2px solid black;
     border-radius: 10px;
+    font-size: 20px;
 }
