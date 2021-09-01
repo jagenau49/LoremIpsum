@@ -23,7 +23,8 @@
         <a href="#was">Was ist Lorem Ipsum? </a>|
         <a href="#woher">Wo kommt es her? </a>|
         <a href="#warum">Warum nutzen wir es? </a>|
-        <a href="#wo">Wo kann ich es kriegen?</a>
+        <a href="#wo">Wo kann ich es kriegen?</a>|
+        <a href="#kontaktFormular">Kontakt</a>
 
     </nav>
     <section id="top">
@@ -37,14 +38,16 @@
         <h2>Was ist Lorem Ipsum?</h2>
         <img src="img/brochure_lorem.gif" alt="Sampl of Lorem" id="sampleLorem">
 
-        <p><div class="firstInfoLine">
+        <p>
+        <div class="firstInfoLine">
             Lorem Ipsum ist ein einfacher Demo-Text für die Print- und Schriftindustrie.
         </div>
-        Lorem Ipsum ist in der Industrie bereits der Standard Demo-Text seit 1500, als ein unbekannter Schriftsteller eine Hand voll Wörter nahm und
-            diese durcheinander warf um ein Musterbuch zu erstellen. Es hat nicht nur 5 Jahrhunderte überlebt, sondern
-            auch in Spruch in die elektronische Schriftbearbeitung geschafft (bemerke, nahezu unverändert). Bekannt
-            wurde es 1960, mit dem erscheinen von "Letraset", welches Passagen von Lorem Ipsum enhielt, so wie Desktop
-            Software wie "Aldus PageMaker" - ebenfalls mit Lorem Ipsum.</p>
+        Lorem Ipsum ist in der Industrie bereits der Standard Demo-Text seit 1500, als ein unbekannter Schriftsteller
+        eine Hand voll Wörter nahm und
+        diese durcheinander warf um ein Musterbuch zu erstellen. Es hat nicht nur 5 Jahrhunderte überlebt, sondern
+        auch in Spruch in die elektronische Schriftbearbeitung geschafft (bemerke, nahezu unverändert). Bekannt
+        wurde es 1960, mit dem erscheinen von "Letraset", welches Passagen von Lorem Ipsum enhielt, so wie Desktop
+        Software wie "Aldus PageMaker" - ebenfalls mit Lorem Ipsum.</p>
 
     </section>
     <section class="infoBox" id="woher">
@@ -70,26 +73,60 @@
     <section id="warum" class="infoBox">
         <h2>Warum nutzen wir es?</h2>
         <img src="img/loremipsumbutton.jpg" alt="loremButtton" class="">
-        <p class="details"><div class="firstInfoLine">Es ist ein lang erwiesener Fakt, dass ein Leser vom Text abgelenkt wird, wenn er sich ein
+        <p class="details">
+        <div class="firstInfoLine">Es ist ein lang erwiesener Fakt, dass ein Leser vom Text abgelenkt wird, wenn er sich
+            ein
             Layout ansieht. </div>Der
-            Punkt, Lorem Ipsum zu nutzen, ist, dass es mehr oder weniger die normale Anordnung von Buchstaben darstellt
-            und somit nach lesbarer Sprache aussieht. Viele Desktop Publisher und Webeditoren nutzen mittlerweile Lorem
-            Ipsum als den Standardtext, auch die Suche im Internet nach "lorem ipsum" macht viele Webseiten sichtbar, wo
-            diese noch immer vorkommen. Mittlerweile gibt es mehrere Versionen des Lorem Ipsum, einige zufällig, andere
-            bewusst (beeinflusst von Witz und des eigenen Geschmacks)</p>
+        Punkt, Lorem Ipsum zu nutzen, ist, dass es mehr oder weniger die normale Anordnung von Buchstaben darstellt
+        und somit nach lesbarer Sprache aussieht. Viele Desktop Publisher und Webeditoren nutzen mittlerweile Lorem
+        Ipsum als den Standardtext, auch die Suche im Internet nach "lorem ipsum" macht viele Webseiten sichtbar, wo
+        diese noch immer vorkommen. Mittlerweile gibt es mehrere Versionen des Lorem Ipsum, einige zufällig, andere
+        bewusst (beeinflusst von Witz und des eigenen Geschmacks)</p>
     </section>
 
     <section id="wo" class="infoBox">
         <h2>Wo kann ich es kriegen?</h2>
         <img src="img/loremIpsumSearch.jpg" alt="loremSearch">
-        <p class="details"><div class="firstInfoLine">Es gibt viele Variationen der Passages des Lorem Ipsum, aber der Hauptteil erlitt Änderungen
+        <p class="details">
+        <div class="firstInfoLine">Es gibt viele Variationen der Passages des Lorem Ipsum, aber der Hauptteil erlitt
+            Änderungen
             in irgendeiner
-            Form, durch Humor oder zufällige Wörter welche nicht einmal ansatzweise glaubwürdig aussehen.</div> Wenn du eine
-            Passage des Lorem Ipsum nutzt, solltest du aufpassen dass in der Mitte des Textes keine ungewollten Wörter
-            stehen. Viele der Generatoren im Internet neigen dazu, vorgefertigte Stücke zu wiederholen - was es nötig
-            machte einen richtigen Generator zu entwickeln. Wir nutzen ein Wörterbuch aus über 200 Lateinischen Wörter,
-            kombiniert mit einer Handvoll Kunstsätzen, welche das Lorem Ipsum glaubwürdig macht. Das generierte Lorem
-            Ipsum ist außerdem frei von Wiederholungen, Humor oder unqualitativen Wörter etc, ...</p>
+            Form, durch Humor oder zufällige Wörter welche nicht einmal ansatzweise glaubwürdig aussehen.</div> Wenn du
+        eine
+        Passage des Lorem Ipsum nutzt, solltest du aufpassen dass in der Mitte des Textes keine ungewollten Wörter
+        stehen. Viele der Generatoren im Internet neigen dazu, vorgefertigte Stücke zu wiederholen - was es nötig
+        machte einen richtigen Generator zu entwickeln. Wir nutzen ein Wörterbuch aus über 200 Lateinischen Wörter,
+        kombiniert mit einer Handvoll Kunstsätzen, welche das Lorem Ipsum glaubwürdig macht. Das generierte Lorem
+        Ipsum ist außerdem frei von Wiederholungen, Humor oder unqualitativen Wörter etc, ...</p>
+    </section>
+    <section id="kontaktFormular">
+        <h2>Kontaktformular</h2>
+        <form action="">
+            <label for="vorNachName">Vor- und Nachname :*</label>
+            <input type="text" name="vorNachName" required><br><br>
+
+            <label for="email">Email :*</label>
+            <input type="email" name="email" required><br><br>
+
+            <label for="themen">Thema :</label>
+
+            <select name="themen">
+                <option value="0">Inhalt des Sites</option>
+                <option value="1">Aussicht des Sites</option>
+                <option value="2">Kommentar</option>
+                <option value="3">Reklamierung</option>
+
+            </select><br><br>
+
+            <label for="nachricht">Nachricht :</label>
+            <textarea name="nachricht" id="nachricht" cols="30" rows="10"></textarea><br><br>
+
+            <button type="submit">Senden</button>
+
+
+
+
+        </form>
     </section>
 
 
