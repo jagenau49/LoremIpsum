@@ -38,7 +38,29 @@ h2{
     font-family: 'Source Code Pro', monospace;
 }
 
-h2+p{
+
+#greek{
+    height: 100px;
+    float: left;
+    margin: 6px;
+    border-radius: 16px;
+}
+#was{
+    
+}
+.infoBox{
+    margin: 10px;
+    padding: 0 6px 0 6px;
+    border-radius: 6px;
+    background-color: burlywood;
+}
+.infoBox h2{
+    font-size: 40px;
+}
+.infoBox p{
     font-family: 'Montserrat', sans-serif;
-    font-style: justify;
+    text-align: justify;
+    font-size: 20px;
+    margin: 16px;
+    
 }
